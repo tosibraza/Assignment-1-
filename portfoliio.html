@@ -1,0 +1,145 @@
+<!-- 
+  Page Name: index.html
+  Project Name: One-Page Portfolio Website
+  Sections: Header, Navigation, Hero, About, Projects, Skills, Contact, Footer
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Toshif Raza - Portfolio</title>
+</head>
+<body>
+
+    <!-- Accessibility: Skip to main content link -->
+    <a href="#main-content">Skip to main content</a>
+
+    <!-- Header & Navigation Bar -->
+    <header>
+        <h1>Mohammed Toshif Raza</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main id="main-content">
+
+        <!-- Hero Section -->
+        <section id="hero">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Aspiring Cybersecurity Professional & Web Developer building secure and innovative digital solutions.</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <div>
+                <img src="toshif.jpeg" alt="Profile picture of Mohammed Toshif Raza" width="200">
+                <p>
+                    Hi there! I am a cybersecurity student at K.R. Mangalam University, passionate about understanding network mechanics, system administration, and offensive/defensive security concepts. I enjoy building clean web applications and continuously sharpening my technical skills through platforms like TryHackMe.
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <article>
+                        <h3>GreenGo</h3>
+                        <p>An urban waste management application concept featuring garbage truck tracking and AI-assisted waste segregation.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>EduConnect</h3>
+                        <p>A student-focused learning platform designed to streamline resource sharing and academic collaboration.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>Exam Helper AI</h3>
+                        <p>A study assistant tool utilizing AI to help students organize notes, practice questions, and prepare for exams.</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Skill / Tool</th>
+                        <th>Category</th>
+                        <th>Learning Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML, CSS, JavaScript</td>
+                        <td>Web Development</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>Networking Basics (TCP/IP)</td>
+                        <td>Computer Networking</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>Windows System Configuration</td>
+                        <td>System Administration</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>TryHackMe / Security Labs</td>
+                        <td>Cybersecurity</td>
+                        <td>Intermediate</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+                <br>
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+                <br>
+                <div>
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Mohammed Toshif Raza. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
